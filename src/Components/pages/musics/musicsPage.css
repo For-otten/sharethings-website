@@ -1,0 +1,114 @@
+.MusicPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-category {
+    margin-bottom: 20px;
+}
+
+.music-item-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5f55af26;
+    transition: background-color 200ms;
+    border-radius: 16px;
+    margin-bottom: 1%;
+    padding: 10px;
+    position: relative;
+    width: 45%;
+}
+
+
+.thumbnailContainerMusicPage {
+    flex: 0 0 auto;
+    width: 14%;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.descriptionsMusicPage {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.descriptionsMusicPage{
+    margin: 0;
+}
+
+audio {
+    width: 85%;
+    z-index: 2;
+    position: relative;
+    margin-right: 2%;
+}
+.contentMusicPage{
+    width: 70%;
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contentMusicPage p {
+    
+    transition: 200ms;
+    margin-bottom: 0.5%;
+
+}
+.contentMusicPage p:hover{
+    opacity: 0.4;
+    transition: 200ms;
+    cursor: pointer;
+}
+.music-item-page:hover audio {
+    cursor: default;
+}
+
+.contentMusicPage a {
+    margin-top: 2%;
+    text-decoration: none;
+    color: inherit;
+}
+.music-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 1150px) and (max-width: 1180px) {
+
+    #thumbMusic{
+        height: 80px;
+    }
+
+
+}
+
+@media (min-width: 0px) and (max-width: 1150px) {
+    .descriptionsMusicPage{
+        display: none;
+    }
+    .music-item-page{
+        flex-direction: column;
+        width: 90%;
+    }
+    #thumbMusic{
+        height: 142px;
+    }
+    .thumbnailContainerMusicPage{
+        width: 100%;
+    }
+    .contentMusicPage{
+        width: 100%;
+    }
+    .music-row{
+        flex-direction: column;
+        
+    }
+
+}

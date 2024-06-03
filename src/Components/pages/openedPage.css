@@ -1,0 +1,78 @@
+.opened-page{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.thumbnailOpened{
+    width: 90%;
+}
+.mediaContainer{
+    width: 1850px;
+}
+iframe {
+    width: 100%;
+    height: calc(100vw * 0.4); /* Altura será 75% da largura da tela */
+}
+
+.commentSession{
+    width: 61%;
+
+}
+.commentary{
+    background-color: #ffffff21;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ffffff1c;
+    margin-bottom: 2.4%;
+}
+.descriptions {
+    text-align: center;
+    padding: 4%;
+  }
+  
+.descriptionItem{
+    padding: 5%;
+  }
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+.description p{
+    color: #fcbebe;
+}
+.comment{
+    text-align: start;
+}
+.comment p {
+    margin: 3% 2%;
+    font-size: small;
+}
+
+@media (min-width: 1250px) and (max-width: 1850px) {
+    .mediaContainer{
+        width: 100%;
+    }
+    .opened-page{
+        margin-top: 10%;
+    }
+
+}
+
+@media (min-width: 0) and (max-width: 1250px) {
+    .mediaContainer{
+        width: 100%;
+    }
+    .opened-page{
+        margin-top: 10%;
+    }
+    .comment p{
+        font-size: x-small;
+    }
+    .commentSession{
+        width: 100%;
+    }
+
+}

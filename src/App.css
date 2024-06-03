@@ -1,0 +1,14 @@
+body{
+  background-color: #161616;
+  color: white;
+  overflow-x: hidden;
+}
+
+.mainContent{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+.App{
+  background: radial-gradient(circle, #353535 -50%, rgba(255, 255, 255, 0) 121%);
+}
