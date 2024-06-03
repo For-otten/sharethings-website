@@ -1,6 +1,6 @@
 ## Description
 
-This project is a front-end application developed with React that allows users to view lists of games and artworks. Each item in the list includes an image, title, category or author, and user comments with their ratings. Navigation between different sections of the site is facilitated by React Router, providing a smooth and interactive user experience.
+This project is a front-end application developed with React that allows users to view lists of games, videos, music and artworks. Each item in the list includes an image, title, category or author, and user comments with their ratings. Navigation between different sections of the site is facilitated by React Router, providing a smooth and interactive user experience.
 
 ## Features
 
