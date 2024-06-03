@@ -4,7 +4,7 @@ This project is a front-end application developed with React that allows users t
 
 ## Features
 
-- Display lists of games and artworks.
+- Display lists of games, videos, music and artworks.
 - Each item includes an image, title, category/author, and user comments with ratings.
 - Smooth navigation between pages using React Router.
 
